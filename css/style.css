@@ -139,8 +139,10 @@ body {
   height: 1129px;
   padding-top: 128px;
   padding-bottom: 271px;
-  background: url(../img/buildings__white.png) center bottom repeat-x,
-    url(../img/buildings__white.png) center bottom repeat-x, #1d1d1d;
+  /* background: url(../img/buildings__white.png) center bottom repeat-x,
+    url(../img/buildings__white.png) center bottom repeat-x, #1d1d1d; */
+  background: url(../img/buildings__white.png) center 101% repeat-x,
+    url(../img/buildings__white.png) center 101% repeat-x, #1d1d1d;
   background-size: contain, contain;
 }
 
@@ -179,3 +181,89 @@ body {
   letter-spacing: 0.02em;
   color: #b7b7b7;
 }
+
+/* 04 Раздел -Команда */
+.team {
+  height: 745px;
+  background-color: #ffffff;
+}
+.block__head {
+  text-align: center;
+}
+.block__title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 34px;
+  /* line-height: 26px; */
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  margin: 0;
+  padding-top: 138px;
+  margin-bottom: 13px;
+}
+.block__text {
+  font-family: "Merriweather-LightItalic", sans-serif;
+  font-size: 16px;
+  /* line-height: 26px; */
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #898888;
+  margin: 0;
+}
+
+/* Team block */
+.team__inner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 127px;
+}
+.team__item {
+  text-align: center;
+}
+.team__item_img {
+  margin-bottom: 29px;
+}
+.team__item_title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 24px;
+  /* line-height: 26px; */
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #464646;
+  margin: 0;
+  margin-bottom: 7px;
+}
+.team__item_text {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 13px;
+  /* line-height: 26px; */
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #b3b3b3;
+  margin: 0;
+  margin-bottom: 21px;
+}
+.team__icon_box a {
+  font-size: 21px;
+  /* height: 18px; */
+  color: #e4e4e4;
+  transition: 0.3s;
+}
+.team__icon_box a:hover {
+  color: #8a8a8a;
+}
+/* .icon-whatsapp {
+}
+.icon-github-circled-alt2 {
+}
+.icon-vkontakte {
+} */
+
+/* font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-family: "HelveticaNeueLTProMd", sans-serif;
+  font-family: "HelveticaNeueLTProRoman", sans-serif;
+  font-family: "Merriweather-LightItalic", sans-serif;
+  font-family: "Montserrat-Light", sans-serif;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "Roboto-Regular", sans-serif; */
