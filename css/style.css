@@ -312,18 +312,161 @@ body {
   color: #535353;
   margin: 0;
 }
-.icon-heart {
+
+/* Раздел Contac Us + Footer */
+.contact .block__head .block__title {
+  padding-top: 95px;
 }
-.icon-download-cloud {
+/* .block__head {
 }
-.icon-chart-line {
-}
-/* .icon-whatsapp {
-}
-.icon-github-circled-alt2 {
-}
-.icon-vkontakte {
+.block__title {
 } */
+.block__text {
+}
+.contact__inner {
+}
+.contact__icon_box {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  max-width: 570px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+.contact__item {
+  text-align: center;
+  width: 130px;
+}
+.contact__item i {
+  color: #323232;
+  font-size: 21px;
+}
+.icon-phone {
+}
+.contact__text {
+  margin-bottom: 12px;
+}
+.contact__text a {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact__text a:hover {
+  color: #3f3f3f;
+  text-decoration: underline;
+}
+.icon-location {
+}
+.icon-mail {
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 770px;
+  margin: 0 auto;
+  padding-top: 153px;
+}
+.contact__form input {
+  height: 52px;
+  padding: 20px;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  /* line-height: 26px; */
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+}
+
+.contact__name {
+  margin-bottom: 20px;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-size: 15px;
+  /* line-height: 26px; */
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  border: 1px solid #999999;
+}
+.contact__email {
+  margin-bottom: 20px;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  text-align: center;
+  border: 1px solid #999999;
+}
+.contact__number {
+  margin-bottom: 20px;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  text-align: center;
+  border: 1px solid #999999;
+}
+
+/* Убрать управляющие стрелки из поля ввода "number"  лайфхак */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.contact__textarea {
+  margin-bottom: 20px;
+  height: 195px;
+  width: 770px;
+  resize: none;
+  padding: 22px;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  border: 1px solid #999999;
+}
+.contact__form .contact__button {
+  cursor: pointer;
+  padding: 0;
+  background-color: #161616;
+  font-family: "HelveticaNeueLTProMd", sans-serif;
+  font-size: 17px;
+  /* line-height: 26px; */
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+  border: none;
+  outline: none;
+}
+
+.footer {
+  padding-top: 154px;
+  margin-bottom: 29px;
+}
+.footer__text {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 14px;
+  /* line-height: 26px; */
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #3b3b3b;
+  text-align: center;
+}
 
 /* font-family: "HelveticaNeueLTProLt", sans-serif;
   font-family: "HelveticaNeueLTProMd", sans-serif;
