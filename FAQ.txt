@@ -7,3 +7,7 @@ Ctrl + [   сдвиг кода влево   (Chift + Tab)
 Ctrl + ]   сдвиг кода вправо   (Tab)
 
 Alt + X копирование всех классов из HTM в CSS (при установленном плагине VS HTML to CSS)
+
+
+
+<!-- .about__item*4>.about__year+.about__text -->
