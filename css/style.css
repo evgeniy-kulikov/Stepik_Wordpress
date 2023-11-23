@@ -582,6 +582,20 @@ input[type="number"] {
   }
   .header_title {
     padding-top: 100px;
+    margin-bottom: 30px;
+  }
+  .header__button {
+    margin-bottom: 100px;
+  }
+  .about__item {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+  }
+  .about {
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 10px;
   }
 }
 
