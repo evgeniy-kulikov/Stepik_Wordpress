@@ -104,7 +104,8 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: #1d1e1f;
-  margin: 207px auto 4px;
+  padding-top: 207px;
+  margin: 0px auto 4px;
 }
 .header__text {
   font-family: "Merriweather-LightItalic", serif;
@@ -478,7 +479,7 @@ input[type="number"] {
   .container {
     width: 768px;
   }
-  */ .header_title {
+  .header_title {
     margin: 100px auto 4px;
   }
   .header__button {
@@ -557,14 +558,30 @@ input[type="number"] {
     display: none;
   }
   .menu__burger {
-    width: 40px;
+    cursor: pointer;
+    width: 30px;
     height: 3px;
     background-color: #000000;
+    position: relative;
   }
   .menu__burger:after {
-    width: 40px;
+    content: " ";
+    width: 30px;
     height: 3px;
     background-color: #000000;
+    position: absolute;
+    bottom: -10px;
+  }
+  .menu__burger:before {
+    content: " ";
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+    position: absolute;
+    top: -10px;
+  }
+  .header_title {
+    padding-top: 100px;
   }
 }
 
