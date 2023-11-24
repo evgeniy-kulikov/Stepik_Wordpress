@@ -606,6 +606,16 @@ input[type="number"] {
     padding-top: 10px;
     background-size: 150% 5%;
   }
+  .provide__item {
+    margin-bottom: 50px;
+  }
+  .contact__form {
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+  .contact__textarea {
+    width: 525px;
+  }
 }
 
 /* font-family: "HelveticaNeueLTProLt", sans-serif;
